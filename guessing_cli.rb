@@ -18,8 +18,6 @@ def run_guessing_game
 	end
 end
 
-puts run_guessing_game
-
 def goodbye
 	puts "Goodbye!"
 end
