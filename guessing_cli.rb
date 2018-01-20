@@ -6,7 +6,7 @@ def run_guessing_game
   response = gets.chomp
 
   if response == my_number
-    puts "You guessed the correct number!""
+    puts "You guessed the correct number!"
   else
     puts
 
