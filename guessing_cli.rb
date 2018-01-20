@@ -1,4 +1,4 @@
-def run_guessing_game
+def run_guessing_game(rand)
 
   my_number = 1 + rand(6)
 
