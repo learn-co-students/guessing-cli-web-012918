@@ -15,3 +15,12 @@ def run_guessing_game1
   end
 
 end
+
+def run_guessing_game
+  puts "Guess a number between 1 and 6."
+  response = gets.chomp
+
+  while response !== "exit"
+    rand = 1 + rand(6)
+    case response
+    when
