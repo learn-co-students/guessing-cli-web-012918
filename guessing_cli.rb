@@ -20,10 +20,13 @@ def run_guessing_game
   response = ""
 
   while response != "exit" do
+
     puts "Guess a number between 1 and 6."
     response = gets.chomp
+
     rand = 1 + rand(6)
-    if response == rand
+
+    if response.to_u == rand
       puts "You guessed the correct number!"
       break
     else
