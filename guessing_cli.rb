@@ -25,7 +25,7 @@ def run_guessing_game
     if response == rand
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed #{my_number}."
+      puts "The computer guessed #{rand}."
     end
   end
   puts "Goodbye!"
