@@ -6,7 +6,7 @@ def run_guessing_game
     puts "Guess a number between 1 and 6."
     response = gets.chomp
 
-    rand = 1 + rand(6)
+    rand = rand(1..6)
 
     if response.to_i == rand
       puts "You guessed the correct number!"
@@ -15,6 +15,6 @@ def run_guessing_game
     end
 
   end
-  
+
   puts "Goodbye!"
 end
