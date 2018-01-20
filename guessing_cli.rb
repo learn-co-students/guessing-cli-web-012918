@@ -1,21 +1,3 @@
-def run_guessing_game1
-
-  my_number = 1 + rand(6)
-
-  puts "Guess a number between 1 and 6."
-  response = gets.chomp
-
-
-  if response.to_i == my_number
-    puts "You guessed the correct number!"
-  elsif response == "exit"
-    puts "Goodbye!"
-  else
-    puts "The computer guessed #{my_number}."
-  end
-
-end
-
 def run_guessing_game
   response = ""
 
@@ -28,10 +10,11 @@ def run_guessing_game
 
     if response.to_i == rand
       puts "You guessed the correct number!"
-      break
     else
       puts "The computer guessed #{rand}."
     end
+
   end
+  
   puts "Goodbye!"
 end
