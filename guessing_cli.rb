@@ -31,7 +31,6 @@ def run_guessing_game
       break
     else
       puts "The computer guessed #{rand}."
-      break
     end
   end
   puts "Goodbye!"
