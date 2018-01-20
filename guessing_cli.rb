@@ -17,10 +17,11 @@ def run_guessing_game1
 end
 
 def run_guessing_game
-  puts "Guess a number between 1 and 6."
-  response = gets.chomp
+  response = ""
 
   while response != "exit" do
+    puts "Guess a number between 1 and 6."
+    response = gets.chomp
     rand = 1 + rand(6)
     if response == rand
       puts "You guessed the correct number!"
