@@ -26,7 +26,7 @@ def run_guessing_game
 
     rand = 1 + rand(6)
 
-    if response.to_u == rand
+    if response.to_i == rand
       puts "You guessed the correct number!"
       break
     else
